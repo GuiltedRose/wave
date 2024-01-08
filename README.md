@@ -2,14 +2,14 @@
 This is my custom broswer engine.
 
 # What is a browser engine?
-    A browser engine is the part of a browser responsible for the rendering of HTML & CSS. This will give a much better understanding of how these technologies work, and because we use rust for this project, we can directly compete with Firefox's new Servo engine. (The (devs)[https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html] also gave a great starting place, and I am going to stick to the rust standard library as much as possible for the entire browser).
+A browser engine is the part of a browser responsible for the rendering of HTML & CSS. This will give a much better understanding of how these technologies work, and because we use rust for this project, we can directly compete with Firefox's new Servo engine. (The (devs)[https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html] also gave a great starting place, and I am going to stick to the rust standard library as much as possible for the entire browser).
 
 # Why make a seperate project for the engine & the browser?
-    If we look at the now defunct Gecko engine; we can see how big of an undertaking this type of project actually is. Naturally since we are starting out as a "toy" engine, we would want to eventually branch it out into it's own thing entirely. This is where the seperate repo comes in. This way as the engine grows, the functionality of the browser only gets better.
+If we look at the now defunct Gecko engine; we can see how big of an undertaking this type of project actually is. Naturally since we are starting out as a "toy" engine, we would want to eventually branch it out into it's own thing entirely. This is where the seperate repo comes in. This way as the engine grows, the functionality of the browser only gets better.
 
 # Parts To Consider for an Engine:
-    HTML/CSS rendering
-    JavaScript Interpreter (sometimes also seperate; see (v8)[https://v8.dev/docs])
+HTML/CSS rendering
+JavaScript Interpreter (sometimes also seperate; see (v8)[https://v8.dev/docs])
 
 # Parts Needed for a Browser:
     HTML/CSS Rendering
@@ -55,4 +55,4 @@ Manage the browser's history and enable navigation between different web pages.
 Handle back and forward actions, updating the displayed webpage accordingly.
 Remember, building a full browser engine is an extensive project that involves many intricate details and considerations. Therefore, it might be helpful to refer to resources like documentation, open-source browser projects, or books that delve into the topic more deeply.
 
-THIS IS NOT A BROWSER ENGINE ChatGPT!!! Also since we noted we weren't using libraries for this we can ignore the suggestions provided.
+**THIS IS NOT A BROWSER ENGINE ChatGPT!!!** Also since we noted we weren't using libraries for this we can ignore the suggestions provided.
